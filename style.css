@@ -1,0 +1,6 @@
+aside#sidebar {
+    float: right;
+}
+.sb_center {
+     float: none !important; 
+}

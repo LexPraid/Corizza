@@ -1,0 +1,345 @@
+/*
+Theme Name: Paprica
+
+Author: Lex
+
+Description: Сайт посвящен пряностям и восточной ккухне, смакуйте
+Version:  a 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, blue, gray, pink, purple, white, yellow, dark, light,
+ two-columns, left-sidebar, fixed-layout, responsive-layout, accessibility-ready, 
+ custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images,
+ microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+Text Domain: twentyfifteen
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+a{
+	text-decoration:none;
+}
+body {
+	padding: 0;
+	line-height: 1.5em;
+	font-family: Verdana, Arial, san-serif;
+	font-size: 11px;
+	color: #333333;
+	margin: 0 auto;
+	background-color: #70170F;
+	background-image: url('../images/Page-BgTexture.jpg');
+	background-repeat: repeat;
+	background-attachment: scroll;
+	background-position: top left;
+}
+
+
+#wrapper {
+	border: 10px solid #D2691E;
+	margin: 0;
+	width: 960px;
+	margin: 10px auto;
+	background: url('../images/templatemo_main_bg.jpg') repeat-y;
+}
+
+
+/* header */
+#header {
+	height: 155px;
+	padding: 0 20px 0 20px;
+	background: url(../images/header_pic.jpg) no-repeat 100%;
+	background-size: cover;
+}
+
+#site_title {
+	float: left;
+	font-weight: bold;
+	font-size: 46px;
+	color: red;
+	width: 250px;
+	margin: 46px 0 0 95px;
+	height: 70px;
+	background: url(../images/papr.jpg) no-repeat;
+	background-size: contain;
+	
+	
+}
+.laibla{
+	margin: 43px 0px 0px 40px;
+}
+/* end of header */
+/* menu */
+#top_menu {
+	clear: both;
+	margin-top: -11px;
+	height: 45px;
+	background: linear-gradient(to right, green, #940000);
+}
+
+#top_menu ul {
+	padding: 0 0 0 10px;
+	
+	list-style: none;
+}
+
+#top_menu ul li {
+	float:left;
+	position:relative;
+	width: 125px;
+	
+}
+#top_menu ul li ul{
+	position:absolute;
+	display:none;
+	background-color: #669933;
+	}
+#top_menu ul li ul {
+	position:absolute;
+	display:none;
+	background-color: #669933;
+	}	
+#top_menu ul li ul {
+	position:absolute;
+	display:none;
+	background-color: #669933;
+	}
+		
+#top_menu ul li:hover ul  {
+		display:block;
+}
+#top_menu li a {
+	color: red;
+	font-size: 12px;
+	height: 45px;
+	line-height: 40px;
+	text-align: center;
+	display: block;
+}
+#top_menu  li a:hover{
+	color: gold;
+}
+	/* Функционал выпадающего списка 
+#top_menu li:hover ul ul, #top_menu li:hover ul ul ul, #top_menu li:hover ul ul ul ul, #top_menu li.sfhover ul ul, #top_menu li.sfhover ul ul ul, #top_menu li.sfhover ul ul ul ul { left: -999em; }
+#top_menu li:hover ul, #top_menu li li:hover ul, #top_menu li li li:hover ul, #top_menu li li li li:hover ul, #top_menu li.sfhover ul, #top_menu li li.sfhover ul, #top_menu li li li.sfhover ul, #top_menu li li li li.sfhover ul { left: auto; }
+*/
+	/* Текущий пункт меню */
+
+
+
+.content{
+	width: 700px;
+	float: left;
+	background: #fff;
+	
+}
+.content_block{
+	border-top: 1px solid #F00;
+	height: 220px;
+	padding: 20px 0;
+	margin: 25px;
+	
+	}
+.content_top img{
+	height:175px;
+	width:250px;
+	background-size: contain;
+	float:left;
+	}
+.content_text {
+	width:320px;
+	float:right;
+}
+h2{
+	color:red;
+	text-align:center;
+}
+.time{
+	color:#000;
+	font-size: 10px;
+}
+
+.coments{
+	text-align:center;
+	color: brown;
+	float: left;
+	background-color: #E0FFFF;
+	width:320px;
+	margin-top: 150px
+	}
+#comment{
+	width:267px;
+	height: 150px;
+}
+.comment-body{
+	margin: 10px 25px;
+	background-color: #fff;
+	padding-top: 10px;
+	}
+	
+.marks{
+	width:150px;
+	height: 20px;
+	}
+	
+/*sidebad*/
+
+.side_bar{
+	float:right;
+	height: 969px;
+	background: #FFF none repeat scroll 0% 0%;
+	padding: 20px;
+	width: 317px;
+}
+.sb_center{
+	border-radius:15px;
+	background-color: gold;
+	padding: 20px 0;
+	width: 250px;
+	float: right;
+	margin-bottom: 15px;
+}
+.textwidget{
+	padding: 0 25px;
+}
+.sidebar_list{
+	list-style-type: none;
+	
+}
+.sidebar_block a{
+	margin: 20px 0 0 35px;
+	font-size: 24px;
+	color: #D2691E;
+	display:block;
+	text-decoration:none;
+		}
+.sidebar_block a:hover{
+	
+	color: #D2691E;
+	text-decoration:none;
+	color: red;
+		}
+.bradcrumb{
+	list-style: none;
+	background-color: #fff;
+	padding: 15px 0px 0px 25px;
+	width: 675px;
+}
+.bradcrumb  li{
+	display: inline;
+	}
+#comment-23{
+	width: 125px;
+	height: 100px;
+}
+
+				/*page_navi*/
+.wp-pagenavi {
+	border-radius: 4px;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+	display: inline-block;
+	margin: 10px 0;
+}
+
+.wp-pagenavi a:last-child, .wp-pagenavi span:last-child {
+	border-radius: 0 4px 4px 0;
+}
+
+.wp-pagenavi .pages {
+	display: none;
+}
+
+.wp-pagenavi a, .wp-pagenavi span {
+	text-decoration: none;
+	font-size: 14px;
+	padding: 4px 12px;
+	line-height: 20px;
+	text-decoration: none;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-left: 0;
+	color:#000;
+}
+
+.previouspostslink {
+	border-radius: 4px 0 0 4px;
+	border-left: 1px solid #ddd;
+}
+
+.wp-pagenavi a:hover, .wp-pagenavi span.current {
+	background: #f5f5f5;
+	color: #999;
+}
+
+
+				/*serch*/
+				
+#s{
+	margin-left: 25px;
+	border-radius: 15px 0px 0px 15px;
+	padding-left: 10px;
+	width: 121px;
+	
+}
+#searchsubmit{
+	border-radius: 0 15px 15px 0;
+	margin-left: -3px;
+	height: 28px;
+}
+.alert-error{
+	font-size: 31px;
+	color: #000;
+	background: #F00 none repeat scroll 0% 0%;
+	height: 34px;
+	text-align: center;
+	padding-top: 10px;
+}	
+.screen-reader-text{
+	display:none;
+}			
+				
+/* footer */
+footer {
+	clear: both;
+	color: #333;
+	height: 78px;
+	margin-top: 30px;
+	padding: 20px 0px 20px 0;
+	text-align: center;
+	background: #ced1c8;
+}
+.footer_widg{
+	float:left;
+}
+
+footer ul{
+	list-style: none;
+	
+}
+footer ul li{
+	display:inline;
+	position: relative;
+	margin: 0px 25px;
+	
+	}
+footer ul li a{
+	color: #000;
+}
+footer ul li a:hover{
+	color:white;
+	}
+	
+.navbar_footer{
+	
+	float:left;
+} 	
+.footer_data h3{
+	color: grey;
+	width: 500px;
+	float: left;
+}	
+
+
+/* end of footer */
